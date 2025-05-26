@@ -65,6 +65,6 @@ class PlacesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def place_params
-      params.expect(place: [ :neme, :locatioin, :x, :y ])
+      params.expect(place: [ :name, :location, :x, :y ])
     end
 end

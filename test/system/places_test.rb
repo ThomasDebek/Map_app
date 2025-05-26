@@ -14,8 +14,8 @@ class PlacesTest < ApplicationSystemTestCase
     visit places_url
     click_on "New place"
 
-    fill_in "Locatioin", with: @place.locatioin
-    fill_in "Neme", with: @place.neme
+    fill_in "Location", with: @place.location
+    fill_in "Name", with: @place.name
     fill_in "X", with: @place.x
     fill_in "Y", with: @place.y
     click_on "Create Place"
@@ -28,8 +28,8 @@ class PlacesTest < ApplicationSystemTestCase
     visit place_url(@place)
     click_on "Edit this place", match: :first
 
-    fill_in "Locatioin", with: @place.locatioin
-    fill_in "Neme", with: @place.neme
+    fill_in "Location", with: @place.location
+    fill_in "Name", with: @place.name
     fill_in "X", with: @place.x
     fill_in "Y", with: @place.y
     click_on "Update Place"

@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_26_211250) do
+ActiveRecord::Schema[8.0].define(version: 2025_05_26_211946) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
   create_table "places", force: :cascade do |t|
-    t.string "neme"
-    t.string "locatioin"
+    t.string "name"
+    t.string "location"
     t.decimal "x"
     t.decimal "y"
     t.datetime "created_at", null: false
