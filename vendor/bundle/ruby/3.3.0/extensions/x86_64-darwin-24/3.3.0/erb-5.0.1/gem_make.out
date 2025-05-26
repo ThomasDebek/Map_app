@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-c3b0bj sitelibdir\=./.gem.20250526-2370-c3b0bj clean
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-c3b0bj sitelibdir\=./.gem.20250526-2370-c3b0bj
+compiling escape.c
+linking shared-object erb/escape.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-c3b0bj sitelibdir\=./.gem.20250526-2370-c3b0bj install
+/usr/bin/install -c -m 0755 escape.bundle ./.gem.20250526-2370-c3b0bj/erb
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-c3b0bj sitelibdir\=./.gem.20250526-2370-c3b0bj clean

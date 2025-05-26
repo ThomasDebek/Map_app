@@ -1,0 +1,23 @@
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/json-2.12.2/ext/json/ext/parser
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-mw2hjl sitelibdir\=./.gem.20250526-2370-mw2hjl clean
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-mw2hjl sitelibdir\=./.gem.20250526-2370-mw2hjl
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-mw2hjl sitelibdir\=./.gem.20250526-2370-mw2hjl install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20250526-2370-mw2hjl/json/ext
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/json-2.12.2/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-mw2hjl sitelibdir\=./.gem.20250526-2370-mw2hjl clean

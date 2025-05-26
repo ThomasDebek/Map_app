@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-48gkda sitelibdir\=./.gem.20250526-2370-48gkda clean
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-48gkda sitelibdir\=./.gem.20250526-2370-48gkda
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-48gkda sitelibdir\=./.gem.20250526-2370-48gkda install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250526-2370-48gkda/racc
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-48gkda sitelibdir\=./.gem.20250526-2370-48gkda clean

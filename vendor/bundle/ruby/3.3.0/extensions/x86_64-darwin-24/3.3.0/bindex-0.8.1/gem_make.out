@@ -1,0 +1,18 @@
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/tomaszdebek/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-6h5rfh sitelibdir\=./.gem.20250526-2370-6h5rfh clean
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-6h5rfh sitelibdir\=./.gem.20250526-2370-6h5rfh
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-6h5rfh sitelibdir\=./.gem.20250526-2370-6h5rfh install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20250526-2370-6h5rfh/skiptrace/internal
+
+current directory: /Users/tomaszdebek/Applications_M1/Indigo/map_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20250526-2370-6h5rfh sitelibdir\=./.gem.20250526-2370-6h5rfh clean
