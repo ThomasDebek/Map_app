@@ -8,7 +8,7 @@
 /.bundle
 .idea
 .DS_Store
-.idea/worspace.xml 
+.idea/worspace.xml
 
 # Ignore all environment files.
 /.env*
@@ -35,3 +35,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
