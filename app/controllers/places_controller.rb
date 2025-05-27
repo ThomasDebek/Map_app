@@ -25,6 +25,7 @@ class PlacesController < ApplicationController
 
     respond_to do |format|
       if @place.save
+        PlaceCoordinatesJob.perform_later(@place.id)
         format.html { redirect_to @place, notice: "Place was successfully created." }
         format.json { render :show, status: :created, location: @place }
       else
@@ -37,7 +38,10 @@ class PlacesController < ApplicationController
   # PATCH/PUT /places/1 or /places/1.json
   def update
     respond_to do |format|
+      old_location = @place.location
+
       if @place.update(place_params)
+        PlaceCoordinatesJob.perform_later(@place.id) if old_location != @place.location
         format.html { redirect_to @place, notice: "Place was successfully updated." }
         format.json { render :show, status: :ok, location: @place }
       else
