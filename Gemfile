@@ -64,3 +64,4 @@ end
 
 
 gem "tailwindcss-rails", "~> 3.3.1"
+gem 'geocoder', '~> 1.8', '>= 1.8.5'
